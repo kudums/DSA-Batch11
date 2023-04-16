@@ -1,5 +1,5 @@
-//print fib using recusive Vs Iterative approach
-public class fib {// 0  1  1  2  3  5  8  13  21  34  55  89  144
+//print fib using recursive Vs Iterative approach
+public class Fibino {// 0  1  1  2  3  5  8  13  21  34  55  89  144
      static int first=0;
      static int second=1;
      static int third=0;//place to store 3rd number
@@ -19,7 +19,7 @@ public class fib {// 0  1  1  2  3  5  8  13  21  34  55  89  144
     public static void main(String[] args) {
         System.out.print(first+ "   "+second);
         fib(10);
-//printing using iterative approach
+      //printing using iterative approach
 //    for(int n=0; n <= 10; n++)
 //    {
 //         third=first+second;
