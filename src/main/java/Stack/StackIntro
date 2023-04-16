@@ -1,0 +1,46 @@
+push o(1)
+pop o(1)
+peek o(1)
+
+
+Stack Implementation
+
+Array
+
+Cons:
+- fixed size
+- last index = top of stack
+if(array size is reached)
+stop the push
+- not used much because of 
+fixed size.
+
+Once reached end of the array,create again new and copy all to new
+
+
+
+ArrayList:
+
+- Variable Size
+  | 1 | 2| 3| |
+           \- top
+           push on top 0(1)= set(i+1)
+           pop on top o(1)= get(i) and remove
+           peek on top o(1)=get(i)
+
+
+LinkedList:
+
+- Variable Size
+ new node is always taken as head
+ |1|
+ |2|
+ |3|-> head pop o(1)= =head=head.next
+ peek o(1)=>get head value= head.data
+ push newnode.next=head;
+ head=new node;
+ 
+  
+ 
+ 
+
