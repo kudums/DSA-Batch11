@@ -1,0 +1,25 @@
+family tree:
+
+real time:
+Hirechal Data Struture:
+Binary Tree- 0 to 2 childrens
+n array
+
+Tree:
+
+NODE
+ROOT/parent
+CHILDREN- left child , right cild
+LEAF
+ANSECTOR
+SBLINGS- same parent
+LEVEVLS = DEPTH
+subtree
+
+
+Travsels: DFS
+PREORDER- root left right
+inorder- left root right
+postorder- left right root
+
+BFS- Level oRder travsale
